@@ -12,6 +12,7 @@
         html, body{
             height: 100%;
             /* wrap의 높이를 %로 주고싶으면 html,  body에 %로 높이 주기 */
+            background-color: #ddd;
         }
 
         .wrap{
@@ -22,6 +23,14 @@
             /* vh : 열린창의 50% */
             margin: 0 auto;
         }
+        
+        .box{
+            background-color: pink;
+            border: 5px solid aliceblue;
+            width: 50vw;
+            height: 30vh;
+            margin: 100px auto;
+        }
 
     </style>
 
@@ -29,8 +38,9 @@
 
 <body>
 
-    <div class="wrap">
-    </div><!-- wrap -->
+    <div class="wrap"></div>
+
+    <div class="box"></div>
     
 </body>
 </html>
